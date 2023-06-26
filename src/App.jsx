@@ -72,7 +72,7 @@ function App() {
 
   // list
   return (
-    <>
+    <div className="layout">
       <div className="react">
         <div>My Todo List</div>
         <div>React</div>
@@ -89,7 +89,7 @@ function App() {
      onDeleteButtonHandler={onDeleteButtonHandler}
      onEditHandler={onEditHandler}
      />
-    </>
+    </div>
   );
 }
 

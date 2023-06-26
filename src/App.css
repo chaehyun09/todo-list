@@ -1,23 +1,36 @@
+.layout {
+  max-width: 1200px;
+  min-width: 800;
+  margin: 0 auto;
+}
+
 .react {
   background-color:cadetblue;
+  border-radius: 20px;
   color: white;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 20px;
+  margin-bottom: 5px
 }
 
 .title-box {
-  color: white;
-  font-size: large;
-  font-weight: bold;
   background-color: orange;
   display: flex;
+  border-radius: 20px;
   align-items: center;
-  justify-items: center;
   height: 100px;
-  padding-left: 5%;
+}
 
+.input-group {
+  margin-left: 10px;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 .input-box {
